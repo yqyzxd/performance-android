@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wind.performance">
+
+    
+    <application>
+        
+        <provider
+            android:authorities="com.wind.performance"
+            android:exported="true"
+            android:name=".startup.StartupProvider"/>
+    </application>
+</manifest>
