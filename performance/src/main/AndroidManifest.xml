@@ -7,7 +7,7 @@
         
         <provider
             android:authorities="com.wind.performance"
-            android:exported="true"
+            android:exported="false"
             android:name=".startup.StartupProvider"/>
     </application>
 </manifest>
